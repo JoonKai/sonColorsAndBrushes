@@ -1,0 +1,26 @@
+﻿<Window x:Class="sonColorsAndBrushes.SolidColorBrushes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sonColorsAndBrushes"
+        mc:Ignorable="d"
+        Title="SolidColorBrushes" Height="450" Width="300">
+    <Canvas>
+        <StackPanel>
+            <TextBlock Margin="0 0 0 5" Text="Predefined Brush in the Brushes class:"/>
+            <Rectangle x:Name="rect1" Width="100" Height="30" Stroke="Blue"/>
+            <TextBlock Margin="0 10 0 5" Text="From predefined color name in the Colors class:"/>
+            <Rectangle x:Name="rect2" Width="100" Height="30" Stroke="Blue"/>
+            <TextBlock Margin="0 10 0 5" Text="From sRGB value in the Color structure:"/>
+            <Rectangle x:Name="rect3" Width="100" Height="30" Stroke="Blue"/>
+            <TextBlock Margin="0 10 0 5" Text="From ScRGB value in the Color structure:"/>
+            <Rectangle x:Name="rect4" Width="100" Height="30" Stroke="Blue"/>
+            <TextBlock Margin="0 10 0 5" Text="From Hex string using ColorConverter:"/>
+            <Rectangle x:Name="rect5" Width="100" Height="30" Stroke="Blue"/>
+            <TextBlock Margin="0 10 0 5" Text="From ColorPickerDialog:"/>
+            <Rectangle x:Name="rect6" Width="100" Height="30" Stroke="Blue"/>
+            <Button Click="ChangeColor_Click" Width="100" Height="25" Content="Chage Color" Margin="10"/>
+        </StackPanel>
+    </Canvas>
+</Window>

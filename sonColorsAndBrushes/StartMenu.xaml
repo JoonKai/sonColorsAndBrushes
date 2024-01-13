@@ -1,0 +1,25 @@
+﻿<Window x:Class="sonColorsAndBrushes.StartMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sonColorsAndBrushes"
+        mc:Ignorable="d"
+        Title="StartMenu" Height="370" Width="300">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock FontSize="12pt" FontWeight="Bold" Margin="10,10,20,10"
+           TextAlignment="Center" TextWrapping="Wrap">
+  Line Charts
+            </TextBlock>
+            <Button Click="Color_Click"  Margin="10,2,10,2" FontSize="11pt">System Colors</Button>
+            <Button Click="ColorPicker_Click"  Margin="10,2,10,2" FontSize="11pt">Color Picker</Button>
+            <Button Click="SolidColorBrushes_Click"  Margin="10,2,10,2" FontSize="11pt">Solid Color Brushes</Button>
+            <Button Click="LinearGradientBrushes_Click"  Margin="10,2,10,2" FontSize="11pt">LinearGradientBrushes</Button>
+            <Button Click="RadialGradientBrush_Click"  Margin="10,2,10,2" FontSize="11pt">RadialGradientBrush</Button>
+            <Button Click="DrawingBrushes_Click"  Margin="10,2,10,2" FontSize="11pt">DrawingBrushes</Button>
+            <Button Click="CustomColormapBrushes_Click"  Margin="10,2,10,2" FontSize="11pt">CustomColormapBrushes</Button>
+            <Button Click="CustomColorShading_Click"  Margin="10,2,10,2" FontSize="11pt">CustomColorShading</Button>
+        </StackPanel>
+    </Grid>
+</Window>
